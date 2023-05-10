@@ -1,0 +1,45 @@
+body {
+    background-color: tomato;
+    text-align: center;
+}
+
+div {
+    background-color: orange;
+    padding: 35px;
+}
+
+h1 {
+    font-size: 80px;
+    color: rgb(80,80,120);
+}
+
+h2 {
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+
+button {
+    width: 150px;
+    height: 100px;
+    background-color: aquamarine;
+    border: 10px solid white;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.login-button {
+    background-color: lightskyblue;
+}
+
+#logout {
+    border-radius: 20%;
+    border: 5px solid red;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
